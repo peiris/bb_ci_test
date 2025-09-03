@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[invariant]
+# The number of random runs per invariant function.
+runs = 10000
+
+# The number of calls to make within each run.
+depth = 15
+
+# Whether to fail the test if any function call reverts.
+fail_on_revert = false
