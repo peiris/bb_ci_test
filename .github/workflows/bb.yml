@@ -76,6 +76,6 @@ jobs:
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action
         with:
-          buildbear-api-key: "BB_E0DC1BFB87BC4D7DA492DFE589F8DEF5"
+          buildbear-api-key: "2c4a6a01-eb1a-46cd-8df8-6953c343728b"
         env:
           BUILDBEAR_BASE_URL: "${{ secrets.BUILDBEAR_BASE_URL }}"
