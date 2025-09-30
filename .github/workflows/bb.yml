@@ -74,7 +74,7 @@ jobs:
         run: forge test --allow-failure
 
       - name: test_ci
-        uses: BuildBearLabs/buildbear_x_action@42f7b27c95c4f6eba5ccc0d9f3124feecbe16746
+        uses: BuildBearLabs/buildbear_x_action
         with:
           buildbear-api-key: "BB_E0DC1BFB87BC4D7DA492DFE589F8DEF5"
         env:
