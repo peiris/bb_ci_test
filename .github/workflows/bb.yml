@@ -78,4 +78,4 @@ jobs:
         with:
           buildbear-api-key: "2c4a6a01-eb1a-46cd-8df8-6953c343728b"
         env:
-          BUILDBEAR_BASE_URL: "${{ secrets.BUILDBEAR_BASE_URL }}"
+          BUILDBEAR_BASE_URL: "https://api.buildbear.io/v1"
