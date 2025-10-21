@@ -78,4 +78,4 @@ jobs:
         with:
           buildbear-api-key: "498f82c9-3e92-45ff-a361-09879ae5df1b"
         env:
-          BUILDBEAR_BASE_URL: "https://api.buildbear.io"
+          BUILDBEAR_BASE_URL: "https://api.dev.buildbear.io"
